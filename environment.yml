@@ -1,0 +1,27 @@
+name: graph-ml-binning
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - jupyter
+  - notebook
+  - ipykernel
+  - nbformat
+  - nbconvert
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - biopython
+  - pytorch
+  - python-igraph
+  - llvm-openmp
+  - pycairo
+  - matplotlib
+  - click
+  - loguru
+  - bidict
+  - pip:
+      - --no-deps
+      - agtools==1.1.0
